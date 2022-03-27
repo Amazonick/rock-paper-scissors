@@ -19,7 +19,7 @@ possibleChoices.forEach((button) =>
     computerChoiceDisplay.innerHTML = computerRandomChoice();
     game();
   })
-  );
+);
 
 // Computer Selection
 function computerRandomChoice() {
@@ -81,7 +81,7 @@ function game() {
   } else if (computerScore === 5) {
     resultDisplay.innerHTML = 'You lost the game!';
   } else if (playerScore === 5 && computerScore === 5) {
-    resultDisplay.innerHTML = 'The game is a tie! No winners. :)'
+    resultDisplay.innerHTML = 'The game is a tie! No winners. :)';
   }
 }
 // score

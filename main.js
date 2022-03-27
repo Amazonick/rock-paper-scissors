@@ -12,6 +12,7 @@ let playerScore = 0;
 let computerScore = 0;
 let gamesPlayed = 0;
 
+// GAMEPLAY
 possibleChoices.forEach((button) =>
   button.addEventListener('click', (e) => {
     playerChoice = e.target.id;
